@@ -35,8 +35,8 @@ topLight.position.set(500, 500, 500);
 topLight.castShadow = true;
 scene.add(topLight);
 
-const moveSpeed = 0.25; 
-const acceleration = 0.25; 
+const moveSpeed = 0.5; 
+const acceleration = 0.5; 
 let moveDirection = new THREE.Vector3(0, 0, 0);
 const targetDirection = new THREE.Vector3(0, 0, 0);
 
